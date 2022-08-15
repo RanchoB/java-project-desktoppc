@@ -16,7 +16,8 @@ public class Function {
         int t1 = 1;
         double r1 = 2.5;
 
-        double iR1 = ((p1*t1*r1)/100);
+        //double iR1 = ((p1*t1*r1)/100);
+        double iR1 = iRAndReturn(p1, t1, r1);
         System.out.println(iR1);
 
 
@@ -28,7 +29,7 @@ public class Function {
         System.out.println(iR2);
     }
 
-    public static double iRAndReturn(int p, float t, double r){
+    public static double iRAndReturn(float p, float t, double r){
         double iR = (p*t*r)/100;
         return iR;
     }

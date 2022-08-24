@@ -11,6 +11,7 @@ public class StudentMarks {
         ram.setNepali(69);
 
 
+
         float totalPercentageRam = (ram.getPhysics()+ram.getChemistry()+ram.getBiology()+ram.getMath()+ram.getNepali())/500*100;
         System.out.println("Ram's Percentage:" + totalPercentageRam);
 
